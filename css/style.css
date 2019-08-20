@@ -1,0 +1,64 @@
+body{
+	background: url("../img/fondo.jpg");
+	background-size: cover;
+	position: relative;
+	background-attachment:  fixed;
+
+}
+form{
+	width: 60%;
+	box-shadow:0.1em 0.1em 2em #000;
+	margin: 0 auto;
+	
+}
+form fieldset{
+	background-color:#95EEF4;
+	
+}
+form fieldset legend{
+	text-align: center;	
+	font-family: 'Oswald', sans-serif;
+	color: grey;
+	font-size: 2em;
+
+}
+form input[type="submit"]{
+	display: block;
+	margin-top: 2em;
+	width: 200px;
+}
+form input[type="email"]{
+	background: transparent;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	outline: none;
+	text-align:center;
+	transition: all linear 0.5s;
+}
+form input[type="email"]:hover{
+	background: #ECB2FA;
+	
+}
+form input[type="text"]{
+	background: transparent;
+	border-top:none;
+	border-left:none;
+	border-right:none;
+	outline: none;
+	text-align:center;
+	transition: all linear 0.5s;
+}
+form input[type="text"]:hover{
+	background: #ECB2FA;
+	
+}
+.parrafo{
+	background: rgba(0,0,0,0.5);  
+	column-count: 3;
+	margin: 2em auto;
+	padding: 1em;
+	width: 60%;
+	color: #DADADA;
+
+}
